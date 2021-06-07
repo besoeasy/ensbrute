@@ -13,11 +13,10 @@ jobs:
      run: |
       sudo apt install git -y
 
-   - name: Build
+   - name: Install
      run: |
       npm i
-      npm run start
 
-   - name: View 
+   - name: Start 
      run: |
-      cat results.txt
+      npm run start
