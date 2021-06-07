@@ -17,14 +17,11 @@ fs.readFile('list.txt', async function (error, data) {
 			if (index === arr.length - 1 && line === '') {
 				return;
 			}
-			await new Promise(r => setTimeout(r, 2000));
-			
+
 			await ens.owner(line.trim() + `.eth`).then(function (response) {
 				if (response == '0x0000000000000000000000000000000000000000') {
 					console.log(line);
 				}
 			});
-
-
 		});
 });
