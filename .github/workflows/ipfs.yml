@@ -20,4 +20,4 @@ jobs:
 
    - name: Upload 
      run: |
-      npx ipfs-deploy ./results.txt  
+      npx ipfs-deploy ./
