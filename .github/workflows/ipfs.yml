@@ -18,6 +18,6 @@ jobs:
       npm i
       npm run start
 
-   - name: Upload 
+   - name: View 
      run: |
-      npx ipfs-deploy ./
+      cat results.txt
