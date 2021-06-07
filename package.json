@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js --file list.txt --out results.txt && npx ipfs-deploy ./"
+    "start": "node index.js --file list.txt --out results.txt"
   },
   "repository": {
     "type": "git",
