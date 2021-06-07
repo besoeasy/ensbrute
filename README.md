@@ -1,7 +1,6 @@
 # ensbrute
-Ethereum Name Service Bruter
 
 
-Add your words to List.txt
+For this repo & edit list.txt, it should kick github action that finds you avaiable domains.
 
-npm start
+The list is automatically uploaded to IPFS for viewing.
