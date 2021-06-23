@@ -2,7 +2,7 @@ const ENS = require('ethereum-ens');
 const Web3 = require('web3');
 const fs = require('fs');
 
-const provider = new Web3.providers.HttpProvider(`https://cloudflare-eth.com`);
+const provider = new Web3.providers.HttpProvider(`https://main-light.eth.linkpool.io`);
 const ens = new ENS(provider);
 
 fs.readFile('list.txt', async function (error, data) {
