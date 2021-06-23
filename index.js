@@ -9,8 +9,10 @@ fs.readFile('list.txt', async function (error, data) {
 	if (error) {
 		throw error;
 	}
+	
+	try {
 
-	data
+			data
 		.toString()
 		.split('\n')
 		.forEach(async function (line, index, arr) {
@@ -24,4 +26,15 @@ fs.readFile('list.txt', async function (error, data) {
 				}
 			});
 		});
+		
+		
+}
+catch(err) {
+console.log(err)
+}
+	
+	
+	
+
+
 });
