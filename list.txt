@@ -1,11 +1,3 @@
-charter
-checked
-chicken
-chronic
-circuit
-classes
-classic
-climate
 closing
 closure
 clothes
