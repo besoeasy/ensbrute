@@ -1,4 +1,5 @@
-name: ipfs
+name: check
+
 on: [push]
 jobs:
  build-and-deploy:
