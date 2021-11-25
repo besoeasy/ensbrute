@@ -1,10 +1,10 @@
 closure
-clothes
+clothes4
 collect
-college
-combine
+college5
+combine4
 comfort
-command
+command4
 comment
 compact
 company
