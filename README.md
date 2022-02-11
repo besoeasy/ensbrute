@@ -2,6 +2,4 @@
 
 Bulk check .eth Domain names on ethereum name service
 
-1. Fork this repo
-2. Change content of list.txt
-3. Check github actions result
+No need to install this APP, just fork it on github and change content of list.txt it should run on github actions for free. 

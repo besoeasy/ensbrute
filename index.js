@@ -9,17 +9,20 @@ function filecontenttoarray(file) {
 }
 
 async function main() {
-	lines = await filecontenttoarray('list.txt');
+	const lines = await filecontenttoarray('list.txt');
 
 	for (let i = 0; i < lines.length; i++) {
-		var line = lines[i].trim() + `.eth`;
+		try {
+			var line = lines[i].trim() + `.eth`;
 
-		var address = await provider.resolveName(line);
+			var address = await provider.resolveName(line);
 
-		if (!address) {
-			console.log(line + ' is not owned');
+			if (!address) {
+				console.log(line + ' is not owned');
+			}
+		} catch (error) {
+			console.log(error);
 		}
-		
 	}
 }
 
